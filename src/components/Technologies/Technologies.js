@@ -32,7 +32,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node, Scala, Relational / Non-relational database
+            Node.js, Scala, Relational / Non-relational database
           </ListParagraph>
         </ListContainer>
       </ListItem>
