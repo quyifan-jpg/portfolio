@@ -3,6 +3,8 @@ import { DiFirebase, DiReact, DiZend,DiChrome,ImMobile } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 import { HiDeviceMobile } from "react-icons/hi";
+
+import { AiOutlineNumber } from "react-icons/ai";
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
@@ -20,7 +22,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js and Angular
+            React.js and Angular throught implementing social media app and internship Experiece
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,7 +46,8 @@ const Technologies = () =>  (
           <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            tools like Neural network <br />
+            Naive Bayes and Variable inference
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +58,33 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Mobile Development</ListTitle>
           <ListParagraph>
-            Swift, Storyboard, React Native
+            Swift, Storyboard, React Native, <br />
+            throught implementing a Healthy Lifestyle app <br />
+
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <AiOutlineNumber size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Operating System</ListTitle>
+          <ListParagraph>
+          Experienced with File system, <br />
+          Multithread message queue, crytography and <br />
+          Cache system
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <AiOutlineNumber size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>High-level Algorithms</ListTitle>
+          <ListParagraph>
+          Solid understanding of algorithms including greedy algorithm, Dynamic Programmming and Linear Programming algorithm.
           </ListParagraph>
         </ListContainer>
       </ListItem>
